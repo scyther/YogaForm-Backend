@@ -13,4 +13,4 @@ app.get("/", (req, res) => {
 app.use("/users", userRoutes);
 app.use("/enroll", registerRoutes);
 
-app.listen(8080, () => console.log("Server running at port 5000"));
+app.listen(5000, () => console.log("Server running at port 5000"));
